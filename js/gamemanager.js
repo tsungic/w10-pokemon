@@ -19,11 +19,12 @@ let GameManager = {
                  player = new player(classType, 120, 18);
                 break;
         }
+        //aDOWNLAOD IMAGES and get interface allows for new page
         let getInterface = document.querySelector(".interface");
         getInterface.innerHTML = '<img src="img/avatar-player/' +
-        classType.toLowerCase() + '.png" class="img-avatar"><div><h3>' + classType
-        + '</h3><p>Health: ' + player.health +
-         '</p>';
+        classType.toLowerCase() + '.png" class="img-avatar"><div><h3>'
+         + classType + '</h3><p>health: ' + player.health +'</p><p>Attack: ' 
+         + player.attack + '</p></div>';
     },
 
     setPreFight: function() {
