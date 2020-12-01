@@ -1,8 +1,8 @@
 let player;
 
-function Player(classType, hp, attack) {
+function Player(classType, health, attack) {
     this.classType = classType;
-    this.hp = hp;
+    this.health = health;
     this.attack = attack;
 }
 
